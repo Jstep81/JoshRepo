@@ -1,0 +1,273 @@
+Last login: Wed Mar  8 15:58:42 on ttys000
+Joshuas-MacBook-Pro:~ JStephens$ Folder/
+-bash: Folder/: No such file or directory
+Joshuas-MacBook-Pro:~ JStephens$ pwd
+/Users/JStephens
+Joshuas-MacBook-Pro:~ JStephens$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+Joshuas-MacBook-Pro:~ JStephens$ mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+Joshuas-MacBook-Pro:~ JStephens$ mkdir[test]
+-bash: mkdir[test]: command not found
+Joshuas-MacBook-Pro:~ JStephens$ mkdir [test]
+Joshuas-MacBook-Pro:~ JStephens$ mkdir [test]
+mkdir: [test]: File exists
+Joshuas-MacBook-Pro:~ JStephens$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	[test]
+Joshuas-MacBook-Pro:~ JStephens$ touch[index.html]/[test]
+-bash: touch[index.html]/[test]: No such file or directory
+Joshuas-MacBook-Pro:~ JStephens$ touch[index.html/[test]]
+-bash: touch[index.html/[test]]: No such file or directory
+Joshuas-MacBook-Pro:~ JStephens$ touch[index.html]/[test]
+-bash: touch[index.html]/[test]: No such file or directory
+Joshuas-MacBook-Pro:~ JStephens$ touch[styl.css]/[test]
+-bash: touch[styl.css]/[test]: No such file or directory
+Joshuas-MacBook-Pro:~ JStephens$ touch[index.html/test]
+-bash: touch[index.html/test]: No such file or directory
+Joshuas-MacBook-Pro:~ JStephens$ touch [index.html]/[test]
+touch: [index.html]/[test]: No such file or directory
+Joshuas-MacBook-Pro:~ JStephens$ touch [index.html/test]
+touch: [index.html/test]: No such file or directory
+Joshuas-MacBook-Pro:~ JStephens$ dir
+-bash: dir: command not found
+Joshuas-MacBook-Pro:~ JStephens$ dir
+-bash: dir: command not found
+Joshuas-MacBook-Pro:~ JStephens$ dir/
+-bash: dir/: No such file or directory
+Joshuas-MacBook-Pro:~ JStephens$ touch newfile.html
+Joshuas-MacBook-Pro:~ JStephens$ dir
+-bash: dir: command not found
+Joshuas-MacBook-Pro:~ JStephens$ ls
+Applications	Downloads	Music		[test]
+Desktop		Library		Pictures	newfile.html
+Documents	Movies		Public
+Joshuas-MacBook-Pro:~ JStephens$ fm-rf newfile.html
+-bash: fm-rf: command not found
+Joshuas-MacBook-Pro:~ JStephens$ rm-rf newfile.html
+-bash: rm-rf: command not found
+Joshuas-MacBook-Pro:~ JStephens$ touch index.html
+Joshuas-MacBook-Pro:~ JStephens$ touch style.css
+Joshuas-MacBook-Pro:~ JStephens$ touch commands.txt
+Joshuas-MacBook-Pro:~ JStephens$ ls
+Applications	Downloads	Music		[test]		newfile.html
+Desktop		Library		Pictures	commands.txt	style.css
+Documents	Movies		Public		index.html
+Joshuas-MacBook-Pro:~ JStephens$ rmdir newfile.html
+rmdir: newfile.html: Not a directory
+Joshuas-MacBook-Pro:~ JStephens$ rm newfile.html
+Joshuas-MacBook-Pro:~ JStephens$ mv index.html/index.html/[test]
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Joshuas-MacBook-Pro:~ JStephens$ ls
+Applications	Downloads	Music		[test]		style.css
+Desktop		Library		Pictures	commands.txt
+Documents	Movies		Public		index.html
+Joshuas-MacBook-Pro:~ JStephens$ pwd
+/Users/JStephens
+Joshuas-MacBook-Pro:~ JStephens$ pwd [test]
+/Users/JStephens
+Joshuas-MacBook-Pro:~ JStephens$ mv style.css/style.css/[test]
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Joshuas-MacBook-Pro:~ JStephens$ mv commands.txt/commands.txt/[test]
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Joshuas-MacBook-Pro:~ JStephens$ cd..
+-bash: cd..: command not found
+Joshuas-MacBook-Pro:~ JStephens$ cd../
+-bash: cd../: No such file or directory
+Joshuas-MacBook-Pro:~ JStephens$ cd..
+-bash: cd..: command not found
+Joshuas-MacBook-Pro:~ JStephens$ cd[test]
+-bash: cd[test]: command not found
+Joshuas-MacBook-Pro:~ JStephens$ cd [test]
+Joshuas-MacBook-Pro:[test] JStephens$ cp index.html index_2.html
+cp: index.html: No such file or directory
+Joshuas-MacBook-Pro:[test] JStephens$ cp index.html/index_2.html
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+Joshuas-MacBook-Pro:[test] JStephens$ rm-1 style.css
+-bash: rm-1: command not found
+Joshuas-MacBook-Pro:[test] JStephens$ rm-i style.css
+-bash: rm-i: command not found
+Joshuas-MacBook-Pro:[test] JStephens$ rm- 1 style.css
+-bash: rm-: command not found
+Joshuas-MacBook-Pro:[test] JStephens$ rm- i style.css
+-bash: rm-: command not found
+Joshuas-MacBook-Pro:[test] JStephens$ rm -1 styl.css
+rm: illegal option -- 1
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+Joshuas-MacBook-Pro:[test] JStephens$ cd..
+-bash: cd..: command not found
+Joshuas-MacBook-Pro:[test] JStephens$ cd ..
+Joshuas-MacBook-Pro:~ JStephens$ cd ..
+Joshuas-MacBook-Pro:Users JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd desktop
+-bash: cd: desktop: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ mk dir destination
+-bash: mk: command not found
+Joshuas-MacBook-Pro:/ JStephens$ mkdir destination
+mkdir: destination: Permission denied
+Joshuas-MacBook-Pro:/ JStephens$ mk dir destination
+-bash: mk: command not found
+Joshuas-MacBook-Pro:/ JStephens$ mkdir destination
+mkdir: destination: Permission denied
+Joshuas-MacBook-Pro:/ JStephens$ cd desktop
+-bash: cd: desktop: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd desktop
+-bash: cd: desktop: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ mkdir destination
+mkdir: destination: Permission denied
+Joshuas-MacBook-Pro:/ JStephens$ ls
+Applications			etc
+Library				home
+Network				installer.failurerequests
+System				net
+Users				private
+Volumes				sbin
+bin				tmp
+cores				usr
+dev				var
+Joshuas-MacBook-Pro:/ JStephens$ pwd
+/
+Joshuas-MacBook-Pro:/ JStephens$ mkdir destination
+mkdir: destination: Permission denied
+Joshuas-MacBook-Pro:/ JStephens$ ls
+Applications			etc
+Library				home
+Network				installer.failurerequests
+System				net
+Users				private
+Volumes				sbin
+bin				tmp
+cores				usr
+dev				var
+Joshuas-MacBook-Pro:/ JStephens$ cd deskto[
+-bash: cd: deskto[: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd desktop
+-bash: cd: desktop: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd..
+-bash: cd..: command not found
+Joshuas-MacBook-Pro:/ JStephens$ cd .
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd [test]
+-bash: cd: [test]: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd [test]
+-bash: cd: [test]: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ mkdir destination
+mkdir: destination: Permission denied
+Joshuas-MacBook-Pro:/ JStephens$ cd [Desktop]
+-bash: cd: [Desktop]: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd desktop
+-bash: cd: desktop: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ mkdir destination
+mkdir: destination: Permission denied
+Joshuas-MacBook-Pro:/ JStephens$ cd Users/JStephens
+Joshuas-MacBook-Pro:~ JStephens$ mkdir destination
+Joshuas-MacBook-Pro:~ JStephens$ cd destination
+Joshuas-MacBook-Pro:destination JStephens$ mv index_2.html/index_2.html/destination
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Joshuas-MacBook-Pro:destination JStephens$ cd destination
+-bash: cd: destination: No such file or directory
+Joshuas-MacBook-Pro:destination JStephens$ ls
+Joshuas-MacBook-Pro:destination JStephens$ cd ..
+Joshuas-MacBook-Pro:~ JStephens$ cd ..
+Joshuas-MacBook-Pro:Users JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd destination
+-bash: cd: destination: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ ls
+Applications			etc
+Library				home
+Network				installer.failurerequests
+System				net
+Users				private
+Volumes				sbin
+bin				tmp
+cores				usr
+dev				var
+Joshuas-MacBook-Pro:/ JStephens$ cd [test]
+-bash: cd: [test]: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd test
+-bash: cd: test: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ users/JStephens
+-bash: users/JStephens: is a directory
+Joshuas-MacBook-Pro:/ JStephens$ ls
+Applications			etc
+Library				home
+Network				installer.failurerequests
+System				net
+Users				private
+Volumes				sbin
+bin				tmp
+cores				usr
+dev				var
+Joshuas-MacBook-Pro:/ JStephens$ cd destination
+-bash: cd: destination: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd [test]
+-bash: cd: [test]: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ open
+Usage: open [-e] [-t] [-f] [-W] [-R] [-n] [-g] [-h] [-b <bundle identifier>] [-a <application>] [filenames] [--args arguments]
+Help: Open opens files from a shell.
+      By default, opens each file using the default application for that file.  
+      If the file is in the form of a URL, the file will be opened as a URL.
+Options: 
+      -a                Opens with the specified application.
+      -b                Opens with the specified application bundle identifier.
+      -e                Opens with TextEdit.
+      -t                Opens with default text editor.
+      -f                Reads input from standard input and opens with TextEdit.
+      -F  --fresh       Launches the app fresh, that is, without restoring windows. Saved persistent state is lost, excluding Untitled documents.
+      -R, --reveal      Selects in the Finder instead of opening.
+      -W, --wait-apps   Blocks until the used applications are closed (even if they were already running).
+          --args        All remaining arguments are passed in argv to the application's main() function instead of opened.
+      -n, --new         Open a new instance of the application even if one is already running.
+      -j, --hide        Launches the app hidden.
+      -g, --background  Does not bring the application to the foreground.
+      -h, --header      Searches header file locations for headers matching the given filenames, and opens them.
+Joshuas-MacBook-Pro:/ JStephens$ rm -rf destination
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd ..
+Joshuas-MacBook-Pro:/ JStephens$ cd[test]
+-bash: cd[test]: command not found
+Joshuas-MacBook-Pro:/ JStephens$ cd [test]
+-bash: cd: [test]: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd desktop
+-bash: cd: desktop: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+Joshuas-MacBook-Pro:/ JStephens$ cdDesktop
+-bash: cdDesktop: command not found
+Joshuas-MacBook-Pro:/ JStephens$ pwd
+/
+Joshuas-MacBook-Pro:/ JStephens$ ls
+Applications			etc
+Library				home
+Network				installer.failurerequests
+System				net
+Users				private
+Volumes				sbin
+bin				tmp
+cores				usr
+dev				var
+Joshuas-MacBook-Pro:/ JStephens$ cd installer.failurerequests
+-bash: cd: installer.failurerequests: Not a directory
+Joshuas-MacBook-Pro:/ JStephens$ 

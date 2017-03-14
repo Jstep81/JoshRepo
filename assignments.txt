@@ -1,0 +1,144 @@
+Last login: Wed Mar  8 19:15:12 on ttys000
+Joshuas-MacBook-Pro:~ JStephens$ cd desktop
+Joshuas-MacBook-Pro:desktop JStephens$ mk dir DojoAssignments
+-bash: mk: command not found
+Joshuas-MacBook-Pro:desktop JStephens$ mkdir DojoAssignments
+Joshuas-MacBook-Pro:desktop JStephens$ ls
+DojoAssignments	commands.txt
+Joshuas-MacBook-Pro:desktop JStephens$ cd DojoAssignments
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ ls
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ mkdir WebFundamentals
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ ls
+WebFundamentals
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ mkdir Python
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ ls
+Python		WebFundamentals
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ mkdir MEAN 
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ ls
+MEAN		Python		WebFundamentals
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ mkdir Ruby
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ ls
+MEAN		Python		Ruby		WebFundamentals
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ mkdir iOS
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ ls
+MEAN		Python		Ruby		WebFundamentals	iOS
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ mkdir netCore
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ ls
+MEAN		Ruby		iOS
+Python		WebFundamentals	netCore
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ cd WebFundamentals
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ touch about.txt
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ ls
+about.txt
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ cd Python
+-bash: cd: Python: No such file or directory
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ ls
+about.txt
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ cd Python
+-bash: cd: Python: No such file or directory
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ c ..
+-bash: c: command not found
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ cd ..
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ cd ..
+Joshuas-MacBook-Pro:desktop JStephens$ cd Python
+-bash: cd: Python: No such file or directory
+Joshuas-MacBook-Pro:desktop JStephens$ cd DojoAssignments
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ cd Python
+Joshuas-MacBook-Pro:Python JStephens$ ls
+Joshuas-MacBook-Pro:Python JStephens$ touch about.txt
+Joshuas-MacBook-Pro:Python JStephens$ ls
+about.txt
+Joshuas-MacBook-Pro:Python JStephens$ cd ..
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ cd MEAN
+Joshuas-MacBook-Pro:MEAN JStephens$ ls
+Joshuas-MacBook-Pro:MEAN JStephens$ touch about.txt
+Joshuas-MacBook-Pro:MEAN JStephens$ ls
+about.txt
+Joshuas-MacBook-Pro:MEAN JStephens$ cd ..
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ cd Ruby
+Joshuas-MacBook-Pro:Ruby JStephens$ ls
+Joshuas-MacBook-Pro:Ruby JStephens$ touch about.txt
+Joshuas-MacBook-Pro:Ruby JStephens$ ls
+about.txt
+Joshuas-MacBook-Pro:Ruby JStephens$ cd ..
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ cd iOS
+Joshuas-MacBook-Pro:iOS JStephens$ ls
+Joshuas-MacBook-Pro:iOS JStephens$ touch about.txt
+Joshuas-MacBook-Pro:iOS JStephens$ ls
+about.txt
+Joshuas-MacBook-Pro:iOS JStephens$ cd ..
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ netCore
+-bash: netCore: command not found
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ ls
+MEAN		Ruby		iOS
+Python		WebFundamentals	netCore
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ cd netCore
+Joshuas-MacBook-Pro:netCore JStephens$ touch about.txt
+Joshuas-MacBook-Pro:netCore JStephens$ ls
+about.txt
+Joshuas-MacBook-Pro:netCore JStephens$ cd ..
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ cd WebFundamentals
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ touch Git
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ touch HTML
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ touch CSS
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ touch Javascript
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ ls
+CSS		Git		HTML		Javascript	about.txt
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ cd WebFundamentals
+-bash: cd: WebFundamentals: No such file or directory
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ cd ..
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ ls
+MEAN		Ruby		iOS
+Python		WebFundamentals	netCore
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ cd Git
+-bash: cd: Git: No such file or directory
+Joshuas-MacBook-Pro:DojoAssignments JStephens$ cd WebFundamentals
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ touch Git
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ ls
+CSS		Git		HTML		Javascript	about.txt
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ cd Git
+-bash: cd: Git: Not a directory
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ rm Git
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ rm CSS
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ rm HTML
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ rm Javascript
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ ls
+about.txt
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ mkdir Git
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ mkdir HTML
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ mkdir CSS
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ mkdir Javascript
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ ls
+CSS		Git		HTML		Javascript	about.txt
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ cd Git
+Joshuas-MacBook-Pro:Git JStephens$ touch about.txt
+Joshuas-MacBook-Pro:Git JStephens$ cd ..
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ cd HTML
+Joshuas-MacBook-Pro:HTML JStephens$ touch about.txt
+Joshuas-MacBook-Pro:HTML JStephens$ ls
+about.txt
+Joshuas-MacBook-Pro:HTML JStephens$ cd ..
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ cd CSs
+Joshuas-MacBook-Pro:CSs JStephens$ ls
+Joshuas-MacBook-Pro:CSs JStephens$ cd CSS
+-bash: cd: CSS: No such file or directory
+Joshuas-MacBook-Pro:CSs JStephens$ cd ..
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ cd CSS
+Joshuas-MacBook-Pro:CSS JStephens$ touch about.txt
+Joshuas-MacBook-Pro:CSS JStephens$ ls
+about.txt
+Joshuas-MacBook-Pro:CSS JStephens$ cd ..
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ cd Javascript
+Joshuas-MacBook-Pro:Javascript JStephens$ touch about.txt
+Joshuas-MacBook-Pro:Javascript JStephens$ ls
+about.txt
+Joshuas-MacBook-Pro:Javascript JStephens$ cd HTML
+-bash: cd: HTML: No such file or directory
+Joshuas-MacBook-Pro:Javascript JStephens$ cd ..
+Joshuas-MacBook-Pro:WebFundamentals JStephens$ cd HTML
+Joshuas-MacBook-Pro:HTML JStephens$ LS
+about.txt
+Joshuas-MacBook-Pro:HTML JStephens$ touch indentatino.html
+Joshuas-MacBook-Pro:HTML JStephens$ ls
+about.txt		indentatino.html
+Joshuas-MacBook-Pro:HTML JStephens$ Is -R
